@@ -3,7 +3,7 @@
 This website allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all.
 #### By **Kayitesi Jacqueline**
 ## Setup/Installation Requirements
-You need is internet connection only.
+You need internet connection only.
  ## BDD
  Specification: Triangle Tracker
   Input triangle sides
