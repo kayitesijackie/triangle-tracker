@@ -14,7 +14,7 @@ You need is internet connection only.
 #### A website that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all.
 ## Technologies Used
 This page was made using HTML, CSS styling, JavaScript and Markdown for README.md file.
-## Link to sie
+## Link to site
 https://kayitesijackie.github.io/triangle-tracker/
 ## Support and contact details
 for further communication email me: kayitesijacqueline@gmail.com
