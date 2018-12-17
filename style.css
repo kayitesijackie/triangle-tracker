@@ -19,3 +19,9 @@ span{
 h2,h3{
     color: cyan;
 }
+#eqltr{
+    width: 0;
+    border-bottom: 400px solid #000;
+    border-right: 400px solid transparent;
+    border-left: 400px solid transparent;
+}
