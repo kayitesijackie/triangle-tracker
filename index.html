@@ -2,40 +2,36 @@
 <html>
 <head>
     <title>Triangle-tracker</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     
 </head>
 <body>
-        <h1>Triangle Tracker Program</h1>
-        <h2>Definition of a triangle</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Triangle_illustration.svg/220px-Triangle_illustration.svg.png">
-        <p>A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry.</p>
-        <h4>Types of a triangle</h4>
-        <p>There three types of triangle: isosceles, equilateral and scalene triangle.</p>
-        <ul>
-            <li>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Triangle.Equilateral.svg/122px-Triangle.Equilateral.svg.png"> 
-                <p><strong>An equilateral triangle</strong> has all sides the same length. An equilateral triangle is also a regular polygon with all angles measuring 60°</p>
-            </li>
-            <li>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Triangle.Isosceles.svg/74px-Triangle.Isosceles.svg.png">
-                <p><strong>An isosceles triangle</strong> has two sides of equal length</p>
-            </li>
-            <li>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Triangle.Scalene.svg/245px-Triangle.Scalene.svg.png">
-                <p><strong>A scalene triangle</strong>  has all its sides of different lengths.</p> 
-            </li>
-        </ul>
-        <h3>How to know the type of triangle</h3>
-        <p>This is a website that checks what type of a triangle you inqured and returns the result.</p>
-        <p><em>If the sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side, this CANNOT be a triangle hence NOT a triangle will be returned</em></p>
-        <p>Please enter the length of each side</p>
-        <p><input type="number" id="side1" placeholder="length of side 1"></p>
-        <p><input type="number" id="side2" placeholder="length of side 2"></p>
-        <p><input type="number" id="side3" placeholder="length of side 3"></p>
-        <button type = "button" onclick = "getResult()">result</button>
+    <div class="triangle">
+            <h1>Triangle Tracker Program</h1>
+            <h2>Definition of a triangle</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Triangle_illustration.svg/220px-Triangle_illustration.svg.png">
+            <p>A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry.</p>
+            <h3>Types of a triangle</h3>
+            <p>There three types of triangle: isosceles, equilateral and scalene triangle.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Triangle.Equilateral.svg/122px-Triangle.Equilateral.svg.png"> 
+            <p><strong>An equilateral triangle</strong> has all sides the same length. An equilateral triangle is also a regular polygon with all angles measuring 60°.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Triangle.Isosceles.svg/74px-Triangle.Isosceles.svg.png">
+            <p><strong>An isosceles triangle</strong> has two sides of equal length.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Triangle.Scalene.svg/245px-Triangle.Scalene.svg.png">
+            <p><strong>A scalene triangle</strong>  has all its sides of different lengths.</p> 
+            <h3>How to know the type of triangle</h3>
+            <p>This is a website that checks what type of a triangle you inqured and returns the result.</p>
+            <p><em>If the sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side, this CANNOT be a triangle hence NOT a triangle will be returned</em></p>
+            <p>Please enter the length of each side</p>
+            <p><input type="number" id="side1" placeholder="length of side 1"></p>
+            <p><input type="number" id="side2" placeholder="length of side 2"></p>
+            <p><input type="number" id="side3" placeholder="length of side 3"></p>
+            <button type = "button" onclick = "getResult()">Result</button>
+            
+
+    </div>
         
-        <script src="scripts.js"></script>
+    <script src="scripts.js"></script>
             
     
 </body>
