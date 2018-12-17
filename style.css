@@ -25,3 +25,10 @@ h2,h3{
     border-right: 400px solid transparent;
     border-left: 400px solid transparent;
 }
+#iscl{
+    width: 0;
+    border-bottom: 500px solid #000;
+    border-right: 400px solid transparent;
+    border-left: 400px solid transparent;
+    
+}
