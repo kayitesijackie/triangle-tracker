@@ -51,4 +51,9 @@ ul li{
     border-left: 300px solid white;
     margin-left: 20%;
 }
+a{
+    text-decoration: none;
+    font-size: 40px;
+}
+
 
