@@ -26,13 +26,13 @@ ul li{
 }
 #eqltr{
     width: 0;
-    border-bottom: 400px solid #000;
+    border-bottom: 400px solid purple;
     border-right: 400px solid transparent;
     border-left: 400px solid transparent;
 }
 #iscl{
     width: 0;
-    border-bottom: 500px solid #000;
+    border-bottom: 500px solid blue;
     border-right: 400px solid transparent;
     border-left: 400px solid transparent;
     
@@ -44,8 +44,11 @@ ul li{
     border-left: 300px solid transparent;
 }
 #undftr{
-    width: 5px;
-    border-bottom: 50px solid #000;
-    border-right: 80px solid transparent;
-    border-left: 150px solid transparent;
+    width: 0;
+    height: 5;
+    border-bottom: 200px solid #000;
+    border-right: 100px solid black;
+    border-left: 300px solid white;
+    margin-left: 20%;
 }
+
